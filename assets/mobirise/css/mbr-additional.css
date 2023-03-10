@@ -746,81 +746,105 @@ a {
   color: #ffffff;
   text-align: left;
 }
-.cid-txia1N0hlM {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #f9f9f9;
+.cid-ty8YQrBrcM {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #000000;
 }
-.cid-txia1N0hlM .mbr-section-subtitle {
-  color: #767676;
+.cid-ty8YQrBrcM img,
+.cid-ty8YQrBrcM .item-img {
+  width: 100%;
 }
-.cid-txia1N0hlM .container-table {
-  margin: 0 auto;
+.cid-ty8YQrBrcM .item:focus,
+.cid-ty8YQrBrcM span:focus {
+  outline: none;
 }
-.cid-txia1N0hlM .scroll {
-  overflow-x: auto;
-  padding: 0;
+.cid-ty8YQrBrcM .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
 }
-.cid-txia1N0hlM .dataTables_wrapper {
-  display: block;
+.cid-ty8YQrBrcM .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
 }
-.cid-txia1N0hlM .dataTables_wrapper .search {
-  margin-bottom: .5rem;
+@media (min-width: 992px) {
+  .cid-ty8YQrBrcM .item-wrapper .item-content {
+    padding: 2rem;
+  }
 }
-.cid-txia1N0hlM .dataTables_wrapper .table {
-  overflow-x: auto;
+@media (max-width: 991px) {
+  .cid-ty8YQrBrcM .item-wrapper .item-content {
+    padding: 1rem;
+  }
 }
-.cid-txia1N0hlM table {
-  width: 100% !important;
-  margin-top: 6px;
-  border: 1px solid #cccccc;
-  margin-bottom: 0;
+.cid-ty8YQrBrcM .mbr-section-btn {
+  margin-top: auto !important;
 }
-.cid-txia1N0hlM table th {
-  border-top: none;
-  transition: all .2s;
+.cid-ty8YQrBrcM .mbr-section-title {
+  color: #ffffff;
+}
+.cid-ty8YQrBrcM .mbr-text,
+.cid-ty8YQrBrcM .mbr-section-btn {
+  text-align: center;
+}
+.cid-ty8YQrBrcM .item-title {
+  text-align: center;
+}
+.cid-ty8YQrBrcM .item-subtitle {
+  text-align: center;
+}
+.cid-ty8YQrBrcM .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-ty9bUIQbyG {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/wall-300x200.png");
+}
+.cid-ty9bUIQbyG .nav-tabs .nav-item.open .nav-link:focus,
+.cid-ty9bUIQbyG .nav-tabs .nav-link.active:focus {
+  outline: none;
+}
+.cid-ty9bUIQbyG .nav-tabs {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
   border-bottom: none;
 }
-.cid-txia1N0hlM table th:hover {
-  background: #cccccc;
-  color: #000000;
+.cid-ty9bUIQbyG .nav-tabs .nav-item {
+  padding: .5rem;
 }
-.cid-txia1N0hlM table td {
-  border-top: 1px solid #cccccc;
+.cid-ty9bUIQbyG .nav-tabs .nav-link {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  border: 1px solid #ffffff;
+  transition: all .5s;
 }
-.cid-txia1N0hlM .dataTables_filter {
-  text-align: right;
-  margin-bottom: .5rem;
+.cid-ty9bUIQbyG .nav-tabs .nav-link:hover {
+  cursor: pointer;
+  background-color: #149dcc;
 }
-.cid-txia1N0hlM .dataTables_filter label {
-  display: inline;
-  white-space: normal !important;
+.cid-ty9bUIQbyG .nav-tabs .nav-link.active {
+  font-weight: 500;
+  color: #ffffff;
+  font-style: normal;
+  background-color: #149dcc;
+  border-color: #149dcc;
 }
-.cid-txia1N0hlM .dataTables_filter input {
-  display: inline;
-  width: auto;
-  margin-left: .5rem;
-  border-radius: 100px;
-  padding-left: 1rem;
+.cid-ty9bUIQbyG .nav-tabs .nav-link.active:hover {
+  background-color: #149dcc;
 }
-.cid-txia1N0hlM .dataTables_info {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  white-space: normal !important;
+.cid-ty9bUIQbyG p {
+  color: #ffffff;
 }
-@media (max-width: 992px) {
-  .cid-txia1N0hlM .dataTables_filter {
-    text-align: center;
-  }
-}
-@media (max-width: 350px) {
-  .cid-txia1N0hlM .dataTables_filter {
-    text-align: center;
-  }
-  .cid-txia1N0hlM .dataTables_filter input {
-    width: 100% !important;
-    margin-left: 0 !important;
-  }
+.cid-ty9bUIQbyG .mbr-text {
+  text-align: center;
 }
 .cid-txfSbkpTjy {
   padding-top: 5rem;
@@ -964,7 +988,7 @@ a {
 .cid-txfUVzcJLl {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/p5230021-3264x2448.jpg");
+  background-color: #232323;
 }
 .cid-txfUVzcJLl .mbr-overlay {
   background-color: #ffffff;
@@ -981,6 +1005,9 @@ a {
   .cid-txfUVzcJLl form .mbr-section-btn .btn {
     width: 100%;
   }
+}
+.cid-txfUVzcJLl .mbr-section-title {
+  color: #ffffff;
 }
 .cid-txileQDpz4 .navbar {
   padding: .5rem 0;
